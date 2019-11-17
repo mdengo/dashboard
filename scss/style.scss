@@ -1,0 +1,37 @@
+$secondary: #343a40;
+
+body {
+  background: url('../img/taust.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.cardside {
+  line-height: 1;
+  color: $secondary;
+  
+  .btn-link {
+  vertical-align: baseline;
+  line-height: 0.7;
+  padding: 0;
+}
+  .fa-bell {
+  padding-top: 30px;
+}
+}
+
+[data-toggle="collapse"].collapsed {
+	.if-not-collapsed {
+		display: none;
+	}
+}
+[data-toggle="collapse"]:not(.collapsed) {
+	.if-collapsed {
+		display: none;
+	}
+}
+.description {
+  font-size: 1.1rem;
+}
